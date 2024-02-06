@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Scrolling Example</title>
+    <style>
+        #virtual-scroll-container {
+            height: 200px;
+        }
+        #virtual-scroll-container {
+            overflow: auto;
+        }
+        #table {
+            position: relative;
+        }
+
+        #table thead {
+            position: sticky;
+            top: 0;
+        }
+
+        #table tbody {
+            position: relative;
+            overflow: auto;
+        }
+
+        #table tr {
+            position: sticky;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+<table id="table">
+    <thead>
+    <tr>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>性别</th>
+    </tr>
+    </thead>
+    <tbody>
+    <div id="virtual-scroll-container"></div>
+    </tbody>
+</table>
+<script>
+
+    // 虚拟滚动
+</script>
+</body>
+
+</html>
